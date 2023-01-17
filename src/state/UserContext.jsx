@@ -21,6 +21,7 @@ export default function UserProvider({ children }) {
 
   const verify = async () => {
     const response = await verifyUser();
+
     setUser(response.session.user || null);
   };
 
