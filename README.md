@@ -1,8 +1,5 @@
 # React Testing Solution
-
-This is the template for the React testing assignment. The assignment's domain
-is a shopping list.
-
+added supabase
 ## Components
 
 There will be pre-existing components that only need tests written for them:
