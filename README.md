@@ -16,4 +16,4 @@ New components will need to be written, along with their tests:
 2. `ShoppingListItemForm`
 
 The `ConfirmationButton` has tests that demonstrate its usage and prove its
-functionality.s
+functionality.ss
