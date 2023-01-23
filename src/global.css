@@ -40,8 +40,10 @@
 
 body {
   font-family: var(--primary-font);
-  background: var(--background-color);
+  background: yellowgreen;
   color: var(--black-color);
+  display: flex;
+  justify-content: center;
 }
 
 :global(.label-text) {
