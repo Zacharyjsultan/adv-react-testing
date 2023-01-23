@@ -9,11 +9,6 @@ export default function ShoppingListItemForm({ onSubmit }) {
     onSubmit({ item, quantity });
   };
 
-  const handleDelete = () => {
-    setItem('');
-    setQuantity('');
-  };
-
   return (
     <>
       <form onSubmit={handleSubmit}>
@@ -29,7 +24,6 @@ export default function ShoppingListItemForm({ onSubmit }) {
           onChange={(e) => setQuantity(e.target.value)}
         />
         <button type="submit">Add</button>
-        <button onClick={handleDelete}>Delete</button>
       </form>
     </>
   );
