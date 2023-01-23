@@ -13,6 +13,7 @@ export default function ShoppingListItemForm({ onSubmit }) {
     <>
       <form onSubmit={handleSubmit}>
         <input
+          data-testid={'shopping-list-item-input'}
           placeholder="Add Item"
           value={item}
           onChange={(e) => setItem(e.target.value)}
